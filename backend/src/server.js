@@ -11,7 +11,7 @@ ConnectDb()
 app.use(cors())
 Routes(app)
 
+const Port = process.env.PORT || 3000
 
 
-
-app.listen(3000)
+app.listen(Port)
