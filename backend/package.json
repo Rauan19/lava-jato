@@ -7,9 +7,8 @@
     "dev": "npx nodemon ./src/server.js"
   },
   "engines": {
-  "node": ">=18.x"
-},
-
+    "node": ">=18.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
