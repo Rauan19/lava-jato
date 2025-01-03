@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "sucrase-node ./src/server.js"
+     "dev": "babel-node src/server.js"
   },
   "engines": {
     "node": ">=16.0.0",
@@ -14,6 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
