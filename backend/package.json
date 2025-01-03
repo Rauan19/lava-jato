@@ -2,14 +2,12 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  
   "main": "server.js",
   "scripts": {
     "build": "babel src --out-dir dist --presets @babel/preset-env",
-     "start": "babel-node src/server.js",
-     "dev": "node -r sucrase/register src/server.js"
+    "start": "babel-node src/server.js",
+    "dev": "node -r sucrase/register src/server.js"
   },
-
   "engines": {
     "node": ">=16.0.0",
     "npm": ">=7.0.0"
@@ -35,6 +33,7 @@
     "sucrase": "^3.35.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.26.4",
     "nodemon": "^3.1.7",
     "sucrase-node": "^3.35.0"
   }
