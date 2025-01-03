@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ConnectDb = async () => {
+export const ConnectDb = async () => {
     try {
         await mongoose.connect(process.env.MONGO_URL, {
             useNewUrlParser: true,
@@ -15,4 +15,3 @@ const ConnectDb = async () => {
     } 
 } 
 
-export default ConnectDb

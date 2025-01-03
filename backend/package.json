@@ -2,11 +2,13 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-     "build": "node_modules/.bin/babel src -d dist",
-    "dev": "babel-node src/server.js"
+    "build": "babel src --out-dir dist",
+     "dev": "babel-node src/server.js",
+     "start": "node dist/server.js" 
   },
+
   "engines": {
     "node": ">=16.0.0",
     "npm": ">=7.0.0"
