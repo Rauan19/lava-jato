@@ -1441,6 +1441,11 @@ strip-ansi@^7.0.1:
   dependencies:
     ansi-regex "^6.0.1"
 
+sucrase-node@^3.35.0:
+  version "3.35.0"
+  resolved "https://registry.npmjs.org/sucrase-node/-/sucrase-node-3.35.0.tgz"
+  integrity sha512-wkAZpsfuMzYnHq8myjC/Bv1Z2AJjU/nQYHHzwyzPwIcOTzocd2FGUb+4MwVnk2WrEUAwWDpktBCeMbV5jhBV/A==
+
 sucrase@^3.35.0:
   version "3.35.0"
   resolved "https://registry.npmjs.org/sucrase/-/sucrase-3.35.0.tgz"

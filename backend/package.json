@@ -8,7 +8,7 @@
   },
   "engines": {
     "node": ">=16.0.0",
-     "npm": ">=7.0.0"
+    "npm": ">=7.0.0"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +28,7 @@
     "sucrase": "^3.35.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "sucrase-node": "^3.35.0"
   }
 }
